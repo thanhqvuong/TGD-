@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web thế giới di động</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="/index.html">
+                            <img style="width: 170px;" src="/img/logo-the-gioi-di-dong-800x136.webp" alt="logo">
+                        </a>
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Bạn tìm gì .... "><i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+                    <li>
+                        <a href="/login/login.html">Đăng Nhập
+                            <i class="fa-regular fa-user"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/shopping/shopping.html">
+                          <button><i class="fa-solid fa-cart-shopping"></i>Giỏ Hàng</button>
+                        </a>
+                    </li>
+                    <li id="address-form-trigger">
+                        <a href="#">
+                            <button><i class="fa-solid fa-location-dot"></i> Hồ Chí Minh</button>
+                        </a>
+                    </li>
+                    <div class="address-form"> <!-- Initially hidden -->
+                        <div class="address-form-content">
+                            <h2>Địa chỉ nhận hàng <span id="address-close">X Đóng</span></h2>
+                            <form id="address-form">
+                                <p>Chọn địa chỉ nhận hàng</p>
+                                <select id="address-city">
+                                    <option value="">Chọn Địa Điểm</option>
+                                    <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                                    <option value="Hà Nội">Hà Nội</option>
+                                </select>
+                                <select id="address-district"> <!-- Corrected ID -->
+                                    <option value="">Chọn Quận</option>
+                                    <option value="1">Quận 1</option>
+                                    <option value="2">Quận 2</option>
+                                    <option value="3">Quận 3</option>
+                                    <option value="4">Quận 4</option>
+                                    <option value="5">Quận 5</option>
+                                    <option value="6">Quận 6</option>
+                                    <option value="7">Quận 7</option>
+                                    <option value="8">Quận 8</option>
+                                    <option value="9">Quận 9</option>
+                                    <option value="10">Quận 10</option>
+                                    <option value="11">Quận 11</option>
+                                    <option value="12">Quận 12</option>
+                                    <!-- Other options -->
+                                </select>
+                                <select id="address-ward">
+                                    <option value="">Chọn Phường</option>
+                                    <option value="1">Phường 1</option>
+                                    <option value="2">Phường 2</option>
+                                    <option value="3">Phường 3</option>
+                                    <option value="4">Phường 4</option>
+                                    <option value="5">Phường 5</option>
+                                    <option value="6">Phường 6</option>
+                                    <option value="7">Phường 7</option>
+                                    <option value="8">Phường 8</option>
+                                    <option value="9">Phường 9</option>
+                                    <option value="10">Phường 10</option>
+                                    <option value="1">Phường 11</option>
+                                    <option value="1">Phường 12</option>
+                                    <!-- Other options -->
+                                </select>
+                                <input type="text" placeholder="Nhập địa chỉ số nhà" id="address-house" required>
+                                <button type="submit" id="address-btn">Xác Nhận</button>
+                            </form>
+                        </div>
+                    </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <div class="container">
+                <div class="menu-bar">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-mobile-screen-button"></i> Điện Thoại
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-laptop"></i> Laptop
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-headphones"></i> Phụ Kiện
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-regular fa-clock"></i> Đồng Hồ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-tablet"></i> Tablet
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-mobile-screen-button"></i> Máy cũ , Thu cũ <i style="margin-left: 3px;" class="fa-solid fa-sort-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-computer"></i> Máy tính , Máy in <i style="margin-left: 3px;" class="fa-solid fa-sort-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-sim-card"></i> Sim, Thẻ cào <i style="margin-left: 3px;" class="fa-solid fa-sort-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-receipt"></i> Dịch vụ tiện ích <i style="margin-left: 3px;" class="fa-solid fa-sort-down"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
